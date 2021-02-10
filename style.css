@@ -32,6 +32,7 @@ body{
     display: flex;
     padding: 10px;
     align-items: center;
+    
 }
 
 #header-img{
@@ -64,5 +65,15 @@ body{
 /********** Content configuration **************/
 
 #main-div{
-    padding-top: 200px;
+    margin-top: 120px;
+    background: linear-gradient(45deg, #d3d3d3, #a0a0a0);
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+#video{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }
