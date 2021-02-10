@@ -66,7 +66,7 @@ body{
 /********** Content configuration **************/
 
 #main-div{
-    margin-top: 120px;
+    padding-top: 120px;
     display: grid;
     grid-template-columns: 100%;
     gap: 50px;
@@ -83,11 +83,26 @@ body{
     font-weight: 900;
 }
 
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#submit{
+    padding: 10px;
+    background-color: indigo;
+    border-radius: 10%;
+    color: white;
+    transition: background-color 0.5s;
+}
 
+#submit:hover{
+    background-color: deeppink;
+    cursor: pointer;
+}
 
 #video{
-    margin: auto;
     max-width: 100%;
     height: auto;
 }
