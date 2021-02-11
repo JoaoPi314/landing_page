@@ -37,7 +37,7 @@ body{
 }
 
 #header-img{
-    height: 100px;
+    height: 60px;
 }
 
 #nav-bar{
@@ -74,7 +74,7 @@ body{
 }
 
 
-#welcome{
+#get-update{
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -102,10 +102,78 @@ body{
     cursor: pointer;
 }
 
+#delivery{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#delivery p{
+    padding-left: 16px;
+}
+
+#bonus{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#bonus p{
+    padding-left: 10px;
+}
+
+#quality{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#quality p{
+    padding-left: 20px;
+}
+
+
+.fas, .far{
+    font-size: 3em;
+    color: purple;
+}
+
+
 #video{
     max-width: 100%;
-    height: auto;
+    width: 640px;
+    height: 400px;
 }
+
+#products{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.5s;
+    padding-bottom: 10px;
+}   
+
+.item img{
+    width: 400px;
+    padding: 50px;
+}
+
+.item:hover{
+    cursor: pointer;
+    border-style:ridge;
+    box-shadow: 50px 50px 10px black;
+}
+
+.classification .fas, .classification .far{
+    font-size: 1em;
+}
+
 
 /********** Footer configuration **************/
 
