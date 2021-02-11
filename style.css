@@ -220,5 +220,21 @@ h2{
 
 #footer{
     background-color: #404040;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer p{
+    text-align: center;
+}
+
+/********** media_query **************/
+
+@media only screen and (max-width: 600px){
+    #title{
+        font-size: 1em;
+    }
+    #header-img{
+        height: 40px;
+    }  
 }
